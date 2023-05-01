@@ -1,0 +1,7 @@
+.section-two__item {
+  width: min(86vw, 390px);
+}
+@media all and (max-width:845px){
+.section-two__item {
+  width: min(86vw, 640px);
+}}

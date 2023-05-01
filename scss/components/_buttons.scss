@@ -1,0 +1,21 @@
+.nav-button-link{
+   text-decoration: none;
+   color: $color-button-green;
+   margin-right: 30px;
+   border:1px solid $color-button-green;
+   padding: 18px 25px;
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 18px;
+}
+
+.nav-button-link:hover{
+   font-weight: 700;
+}
+
+.header-content_button-mod{
+   margin-right: 0 ;
+   background: rgba(0, 0, 0, 0.5);
+   padding: 20px 47px;
+   font-size: 18px;
+}

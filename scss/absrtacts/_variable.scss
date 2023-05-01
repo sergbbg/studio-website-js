@@ -1,0 +1,18 @@
+$main_font:  'Montserrat', sans-serif;
+$main-color_white: #fff;;
+$main-color_black:#000;
+$main-color_footer: #707070; 
+$color-button-green:#BBCC68;
+
+$maxWidth:1400;
+
+$maxWidthContainer:1170;
+//адаптив
+$md1:786;
+$md2:375;
+
+
+%equal-heights {
+   display: flex;
+   flex-wrap: wrap;
+ }

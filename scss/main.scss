@@ -1,0 +1,56 @@
+@import 'absrtacts/_variable';
+@import 'layout/_header';
+@import 'layout/_footer';
+@import 'components/_burger' ;
+@import 'layout/_main-part';
+@import 'layout/_grid';
+@import 'layout/_navigation';
+@import 'components/_buttons' ;
+@import 'absrtacts/_mixins';
+@import 'layout/_osnova';
+
+  html{
+    height: 100%;
+  }
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $main_font;
+  height: 100%;
+  
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+
+}
+
+
+.main{
+  flex: 1 0 auto ;
+}
+
+.footer{
+flex:0 0 auto;
+}
+
+
+
+.container{
+  max-width: 1240px;
+  margin: 0 auto;
+  height: 100%; 
+}
+.container2{
+  max-width: 85%;
+  margin: 0 4% 0 11%;
+  height: 100%; 
+
+}
+ li, a:hover{
+    color:  #BBCC68;
+    
+ }
