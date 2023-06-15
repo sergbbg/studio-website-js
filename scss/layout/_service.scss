@@ -101,19 +101,41 @@
 //   }  
 //  }
 // }
-
+.service-list-1-text{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 55%;
+}
 .service-item-list{
    display: flex;
 }
 .service-list-1-img{
-   width: 624px;
+   background:url(img/service2.png);  
+   background-size: 100% auto;
+}
+.service-list-2-img{
+   background:url(img/service3.png);
+}
+.service-list-3-img{
+  background:url(img/service4.png);  
+}
+.service-list-4-img{
+   background:url(img/service6.png);
+}
+
+
+.service-list-img-mod{
+   width: 45%;
    height: 464px;
-   background:url(img/service2.png);
-   
+}
+
+.service-text{
+   width: 75%;
 }
 
 @media all and (max-width:800px) {
-   .service-list-1-img{
+   .service-list-img-mod{
       width: 309px;
       height: 463px;
       width: 100%;
