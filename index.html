@@ -40,8 +40,8 @@
                 ул. Уральская, 13
         
             </div>
-             <div class="nav-button button-green">
-               <a href="" class="nav-button-link">Заказать проект</a>
+             <div  class="nav-button button-green"  >
+               <a data-modal href="" class="nav-button-link">Заказать проект</a>
              </div>
              <div class="list-container">
                <div class="more-button burger_first" aria-label="Menu Button">
@@ -603,7 +603,23 @@
 </div>
 </footer>
 
+<div class="modal">
+  <div class="modal__dialog">
+      <div class="modal__content">
+          <form action="#">
+              <div data-close class="modal__close">&times;</div>
+              <div class="modal__title_text">
+               <h3>Заказать дизайн</h3> 
+               <p>Разрешите нам познакомиться с вами и узнать о вашем проекте. Мы подготовим для вас индивидуальное предложение.</p>
+              </div>
 
+              <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
+              <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
+              <button class="btnForm btnForm_mod">Перезвонить мне</button>
+          </form>
+      </div>
+  </div>
+</div>
 
 
 <script src="script.js"></script>
