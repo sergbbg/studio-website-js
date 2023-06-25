@@ -1211,7 +1211,6 @@ input {
   display: block;
   width: 95%;
   height: 35px;
-  background: #FFFFFF;
   font-size: 16px;
   padding: 0 20px;
   outline: none;
@@ -1225,6 +1224,19 @@ input {
   display: block;
 }
 
+.animation-modal {
+  opacity: 0;
+  animation: ani 1s forwards;
+}
+
+@keyframes ani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .service-text-mod h2 {
   font-weight: 600;
   font-size: 30px;

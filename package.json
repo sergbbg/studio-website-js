@@ -1,0 +1,19 @@
+{
+  "name": "custom",
+  "version": "1.0.0",
+  "description": "<br> проект студии интерьера.\r <br> стек  - scss, js\r проект еще разрабатывается",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergbbg/studio-website-js.git"
+  },
+  "author": "serg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergbbg/studio-website-js/issues"
+  },
+  "homepage": "https://github.com/sergbbg/studio-website-js#readme"
+}

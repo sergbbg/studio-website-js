@@ -148,7 +148,7 @@ input {outline:none;}
    
    width: 95%;
    height: 35px;
-   background: #FFFFFF;
+   
    
    font-size: 16px;
    
@@ -161,4 +161,14 @@ input {outline:none;}
 
  .show{
    display: block;
+ }
+
+ .animation-modal {
+   opacity: 0;
+   animation: ani 1s forwards;
+ }
+ 
+ @keyframes ani {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
  }
