@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sergbbg/studio-website-js/issues"
   },
-  "homepage": "https://github.com/sergbbg/studio-website-js#readme"
+  "homepage": "https://github.com/sergbbg/studio-website-js#readme",
+  "devDependencies": {
+    "json-server": "^0.17.3"
+  }
 }
