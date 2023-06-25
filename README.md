@@ -1,5 +1,4 @@
 # studio-website
 
-<br> проект студии интерьера.
-<br> стек  - scss, js
-проект еще разрабатывается 
+![изображение](https://github.com/sergbbg/studio-website-js/assets/58991921/a77fb800-ee70-4d4c-b114-93fd26c484e8)
+
