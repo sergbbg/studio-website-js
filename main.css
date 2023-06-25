@@ -1237,6 +1237,10 @@ input {
     opacity: 1;
   }
 }
+.hide {
+  display: none;
+}
+
 .service-text-mod h2 {
   font-weight: 600;
   font-size: 30px;
